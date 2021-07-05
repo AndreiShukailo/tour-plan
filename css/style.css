@@ -491,11 +491,13 @@ template {
   }
   .navbar__search {
     margin-left: auto;
-    max-width: 340px;
   }
   .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .search__input {
+    width: 340px;
   }
 }
 
@@ -516,6 +518,7 @@ template {
     display: flex;
     width: 16px;
     height: 13px;
+    padding: 0;
     background-color: #fff;
     -webkit-box-align: center;
         -ms-flex-align: center;

@@ -5,19 +5,44 @@
 @media (max-width:  992px)
   .container
     max-width: 760px
-    .navbar
-      &-top
-        padding-top: 30px
-        padding-bottom: 30px
-      &__search
-        margin-left: auto
-        max-width: 340px
-      &-menu
-        &__link
-          font-size: 12px
-          line-height: 15px
+  .navbar
+    &-top
+      padding-top: 30px
+      padding-bottom: 30px
+    &__search
+      margin-left: auto
+      max-width: 340px
+    &-menu
+      &__link
+        font-size: 12px
+        line-height: 15px
 
 @media (max-width:  768px)
   .container
     max-width: 576px
     width: 92%
+  .logo
+    width: 132px
+  .navbar
+    &-menu, &__search, &__user
+      display: none
+  .menu
+    &-button
+      display: flex
+      width: 16px
+      height: 13px
+      background-color: $light
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      cursor: pointer
+      &__line
+        width: 16px
+        height: 1px
+        background-color: $text-color
+       
+@media (max-width:  576px)
+  .logo
+    width: 99px
+        
